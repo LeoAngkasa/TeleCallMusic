@@ -18,15 +18,15 @@ Use the buttons below to know more about me.""",
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://t.me/SuMusicPlayer"
+                        "⚒ Source code", url="https://github.com/vincreator/TeleCallMusic"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/su_Chats"
+                        "💬 Group", url="https://t.me/NollepAlliance"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/su_Bots"
+                        "Channel 🔈", url="https://t.me/OURMUSICPlay"
                     )
                 ]
             ]

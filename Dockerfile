@@ -8,7 +8,7 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm
 RUN mkdir /app/
 WORKDIR /app/
-RUN git clone https://github.com/rojserbest/pytgcalls && \
+RUN git clone https://github.com/pytgcalls/pytgcalls && \
     cd pytgcalls && \
     npm install && \
     npm run prepare && \

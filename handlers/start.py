@@ -10,23 +10,22 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>👋🏻 Hi {message.from_user.first_name}!</b>
-
-I am SU Music Player, an open-source bot that lets you play music in your Telegram groups.
-
-Use the buttons below to know more about me.""",
+Gua Bot Musik Yang Dapat Menemani Kegabutan Kalian Semua.
+Cara Penggunaan Cukup Mudah! Klik Saja Tombol Dibawah Maka Kan Ada Tutorialnya.
+JANGAN LUPA SUPPORT DIBAWAH! JANGAN MALAS MEMBACA!!!.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚒ Source code", url="https://github.com/vincreator/TeleCallMusic"
+                        "📖 Panduan Pengguna", url="https://telegra.ph/ʜɪʟᴇʀ-ʙʀ-03-16"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/NollepAlliance"
+                        "🔊 Channel", url="https://t.me/storyangkasa"
                     ),
                     InlineKeyboardButton(
-                        "Channel 🔈", url="https://t.me/OURMUSICPlay"
+                        "🔎 SPACE-BOT", url="https://github.com/AngkasaBoy/Space-Bot"
                     )
                 ]
             ]
